@@ -1,3 +1,4 @@
 .idea/
 infra/target/dist/*
+!infra/target/dist/just-file.txt
 venv/

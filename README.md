@@ -52,7 +52,7 @@ monitor=# select * from metric order by timestamp DESC limit 10;
 
 ```
 
-if you see something like
+Just in case you see something like this
 ```bash
 monitor=# select * from metric order by timestamp DESC limit 10;
  id  | cpu_usage | mem_usage |         timestamp          
@@ -69,7 +69,7 @@ monitor=# select * from metric order by timestamp DESC limit 10;
  526 |       2.6 |      85.5 | 2019-11-14 08:17:04.592806
 ```
 
-And with every call timestamp keep changing means that I was successful and can carry on to the next stage.
+and with every new request `timestamp` values are changing - that mean I was successful and you can carry on to the next stage.
 
 ### 5. Celebrate
 Best way to celebrate is to provide feedback, please do not hesitate to contact me and tell me what you liked and especially what you do not like. 

@@ -1,0 +1,5 @@
+psutil
+pykafka
+sqlalchemy
+sqlalchemy-utils
+psycopg2
